@@ -6,3 +6,5 @@ before_install:
 script:
  - mkdir build && cd build && cmake .. && make && ./utest
  - make test
+notifications:
+  slack: j0ny:tlJolYCjWs5eI2DmeZFry8sa
