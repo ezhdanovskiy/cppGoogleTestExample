@@ -2,7 +2,10 @@
 
 #include <gtest/gtest.h>
 
-TEST(SumTest, Simple) {
-  int s = sum(2, 3);
-  EXPECT_EQ(5, s);
+TEST(SumTest, Sum) {
+  EXPECT_EQ(5, sum(2, 3));
+}
+
+TEST(SumTest, Minus) {
+  EXPECT_EQ(5, minus(2, 3));
 }
