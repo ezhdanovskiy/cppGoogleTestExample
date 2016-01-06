@@ -5,6 +5,7 @@ enable_testing()
 
 include_directories(include)
 
+set(BIN_NAME utest)
 add_executable(${BIN_NAME}
         src/operations.cpp
         test/test01.cpp
