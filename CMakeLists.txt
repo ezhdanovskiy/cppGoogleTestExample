@@ -1,7 +1,7 @@
-project(Tests)
+project(GoogleTests)
 cmake_minimum_required(VERSION 2.6)
 
-set(BIN_NAME utest)
+enable_testing()
 
 include_directories(include)
 
@@ -10,3 +10,6 @@ add_executable(${BIN_NAME}
         test/test01.cpp
 )
 target_link_libraries(${BIN_NAME} gtest gtest_main pthread)
+
+add_subdirectory(src)
+add_subdirectory(test)
