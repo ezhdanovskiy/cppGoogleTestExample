@@ -1,4 +1,4 @@
-#include "sum.h"
+#include "operations.h"
 
 #include <gtest/gtest.h>
 
