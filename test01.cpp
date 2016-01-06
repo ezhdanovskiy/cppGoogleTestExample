@@ -3,5 +3,6 @@
 #include <gtest/gtest.h>
 
 TEST(SumTest, Simple) {
-  EXPECT_EQ(5, sum(2, 3));
+  int s = sum(2, 3)
+  EXPECT_EQ(5, s);
 }
